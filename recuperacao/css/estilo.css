@@ -1,0 +1,52 @@
+*{
+    margin: auto;
+    padding: auto;
+}
+.videos{
+    margin: 5px;
+    padding: 5px;
+   
+     
+}
+     .navbar-inverse {
+        background-color: rgb(0, 0, 0);
+        border-color: #000000;
+    }
+    .wallpapers {
+        text-align: center;
+        margin: auto;
+        padding: auto;
+    }
+    .galeria-foto {
+        text-align: center;
+        background: #ffffff;
+        width:270px;
+        height:250px;
+        float:left;
+        margin:20px;
+        padding: 10 auto;
+        
+    }
+    body {
+        animation: fadein 0.5s; /* Padrão */
+        -webkit-animation: fadein 0.5s; /* Webkit */
+        -moz-animation: fadein 0.5s; /* Firefox */
+        -ms-animation: fadein 0.5s; /* IE */
+        }
+        @keyframes fadein {
+        from { opacity: 0.4; }
+        to { opacity: 1; } /* Padrão */
+        }
+        @-moz-keyframes fadein {
+        from { opacity: 0.4; }
+        to { opacity: 1; } /* Firefox */
+        }
+        @-webkit-keyframes fadein {
+        from { opacity: 0.4;} 
+        to { opacity: 1; } /* Webkit */
+        }
+        @-ms-keyframes fadein {
+        from { opacity: 0.4; }
+        to { opacity: 1; }
+        
+    }
